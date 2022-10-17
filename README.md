@@ -18,3 +18,6 @@ Here is an example of alt text being added to the images embedded in the HTML fi
 
 Andrew Tirpok for his help with getting the gears rolling in my brain to undertake this project. 
 
+## Link to live site
+
+https://porkchoppy.github.io/horiseon-refactor/
