@@ -95,7 +95,7 @@ p {
     color: #ffffff;
 }
 
-/*benefits lead, cost and brand consolidated to single class benefits */
+/*benefits lead, cost and brand consolidated to single class of benefits */
 
 .benefits h3 {
     margin-bottom: 10px;
@@ -107,6 +107,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* three categories below consolidated since all attributes were the same */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
