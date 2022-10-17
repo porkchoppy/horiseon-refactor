@@ -8,18 +8,13 @@ This repository is where I refactored the existing code for the Horiseon website
 
 Here is an example of some of the CSS commentary noting what changes were made: 
 
-     ![css edit](assets/images/screenshot-1.jpeg)
+![css screenshot](assets/images/screenshot-1.jpg)
 
 Here is an example of alt text being added to the images embedded in the HTML file: 
 
-    ![alt text](assets/images/screenshot-2.jpeg)
- 
+![html screenshot](assets/images/screenshot-2.jpg)
 
 ## Credits
 
 Andrew Tirpok for his help with getting the gears rolling in my brain to undertake this project. 
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 

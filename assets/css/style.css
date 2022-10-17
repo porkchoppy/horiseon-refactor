@@ -43,15 +43,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero { 
     height: 800px;
     width: 100%;
@@ -62,6 +53,15 @@ p {
 }
 
 /*css rearranged to follow flow of html*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
 
 .content {
     width: 75%;
@@ -79,36 +79,9 @@ p {
     margin-left: 25px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
- }
-
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*benefits lead, cost and brand consolidated to single class of benefits */
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* three categories below consolidated since all attributes were the same */
+
+/*content section moved above the benefits section to match with html flow*/
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -146,12 +119,43 @@ p {
     font-size: 36px;
 }
 
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ }
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*benefits lead, cost and brand consolidated to single class of benefits */
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* h2 changed to h3 in footer since h3 was the last header size used */
 
 .footer h3 {
     font-size: 20px;
